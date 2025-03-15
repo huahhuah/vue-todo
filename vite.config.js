@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue-todo/',
+  // base: '/vue-todo/', //for vercel depoly
   plugins: [vue()],
   resolve: {
     alias: {
